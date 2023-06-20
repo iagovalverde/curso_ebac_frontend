@@ -5,55 +5,39 @@
 }
 
 body {
-    background-color: rgb(41, 66, 60);
-    color: aliceblue;
+    background-color: rgb(63, 55, 133);
 }
 
-.container {
-    margin: 80px auto;
-    max-width: 640px;
+header {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 36px;
+    color: rgb(255, 255, 255);
 }
 
-h1 {
-    margin-bottom: 20px;
+form {
+    text-align: center;
 }
 
-input, button {
-    display: block;
-    width: 70%;
-    margin-bottom: 8px;
+form input, button {
+    font-size: 1.3em;
     padding: 8px;
 }
 
-button {
-    background-color: rgb(112, 180, 164);
-    font-weight: bold;
+input {
+    width: 20%;
+}
+
+ul {
+    max-width: 25vw;
+    margin: 16px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: white;
+    list-style: circle;
+}
+
+ul li {
     cursor: pointer;
-}
-
-button:hover {
-    background-color: rgb(152, 238, 218)
-}
-
-#msg-sucesso {
-    display: none;
-    width: 70%;
-    padding: 16px;
-    background-color: rgb(0, 128, 0);
-    color: white;
-}
-
-#msg-erro {
-    display: none;
-    width: 70%;
-    margin-bottom: 8px;
-    padding: 8px;
-    background-color: rgb(196, 0, 0);
-    color: white;
-}
-
-input.erro {
-    color: red;
-    border-color: red;
-    outline-color: red;
 }
